@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+}
+.imagem{
+    background-color: #F3FFF2;
+    width: 958px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* padding: 305px 229px;*/
+}
+.form{
+    background-color: #fff;
+    width:964px;
+    height:1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 205px 281px;
+}
+.formulario{
+   /* background-color: aqua;*/
+    width: 400px;
+    height: 614px;
+    
+}
+.form .formulario h3{
+    color:#1A202C;
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+.form .formulario h1{
+    color:#1A202C ;
+    font-size: 32px;
+    font-family: Archivo;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.form .formulario .input-email input{
+    width: 400px;
+    height: 49px;
+    padding: 16px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+    border: 1px solid #E8E8E8;
+    background: #F7FAFC;
+}
+.form .formulario .input-senha input{
+    width: 400px;
+    height: 49px;
+    padding: 16px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border: 1px solid #E8E8E8;
+    background: #F7FAFC;
+    
+
+}
+label{
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+    
+}
+.btn{
+    padding-bottom: 56px;
+    
+}
+.btn #btn{
+    padding-left: 12px;
+    text-decoration: none;
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.btn #btn2{
+    padding-left: 90px;
+    text-decoration: none;
+    color: #1E9E6A;
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.input-botao{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.form .formulario .input-botao #enter{
+    background-color: #1E9E6A;
+    padding:16px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.form .formulario .input-botao #enter1{
+    background-color: #1A202C;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: 600;
+}
+.esque{
+    display: flex;
+    justify-content: center;
+}
+#nao{
+    text-decoration: none;
+    color: #1A202C;
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 64px;
+}
+span{
+    color: #1E9E6A;
+}
